@@ -10,7 +10,8 @@ body {
     margin: 0;
     font-size: 100%;
     background: #fff;
-    font-family: Raleway Light, 'Source Sans Pro', sans-serif;
+    /*font-family: Raleway Light, 'Source Sans Pro', sans-serif;*/
+    font-family: 'Raleway', sans-serif;
 }
 
 body a {
