@@ -403,6 +403,19 @@ span.desc {
     background-color: #0f9d58;
 }
 
+.btn-orange{
+    border: none!important;
+    padding: 16px 20px 16px;
+    font-size: 15px;
+    outline: none;
+    text-transform: uppercase;
+    margin: 0 0 0 -4px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: #ff4c00;
+    color: #fff;
+}
+
 a.two.scroll {
     margin-left: 10px;
 }
@@ -751,7 +764,7 @@ span.progressText {
 
 .banner_bottom {
     padding: 7em 0;
-    max-height: 600px;
+    /*max-height: 600px;*/
 }
 
 .news-left {
@@ -956,7 +969,7 @@ p.sub_p {
 
 .dodecagon-bg,
 .octagon-bg {
-    background-color: #0f9d58;
+    background-color: #83d3c9;
 }
 
 /*-- /works--*/

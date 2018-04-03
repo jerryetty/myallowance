@@ -26,8 +26,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/easy-responsive-tabs.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/font-awesome.min.css' %}">
 	<!-- //for bootstrap working -->
-	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700" rel="stylesheet">
-	<link href="//fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700" rel="stylesheet">
+	<!-- <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,300" rel="stylesheet">
 </head>
 
 <body>
@@ -47,7 +48,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="logo_wthree_agile">
 						<h1>
 							<a class="navbar-brand" href="{% url 'myallowance:home' %}">
-								<img src="{% static 'assets/images/logo.png' %}" width="75%" style="margin-top: -7%">
+								<img src="{% static 'assets/images/logo-xs.png' %}" width="25%" style="margin-top: -8%; margin-left: ">
 							</a>
 						</h1>
 					</div>
@@ -62,10 +63,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<a class="scroll" href="{% url 'myallowance:about' %}">About us</a>
 							</li>
 							<li>
-								<a class="scroll" href="{% url 'myallowance:earn' %}">Earn</a>
+								<a class="scroll" href="{% url 'myallowance:whyus' %}">Why us</a>
 							</li>
 							<li>
 								<a class="scroll" href="{% url 'myallowance:contact' %}">Contact us</a>
+							</li>
+
+							<li>
+								<a class="scroll" href="{% url 'myallowance:help' %}">Help</a>
 							</li>
 							<!-- <li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown
@@ -98,7 +103,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	{% block body %}
 	{% endblock %}
 	
-
+	
 	<!-- /newsletter-->
 	<div class="newsletter">
 		<div class="col-sm-6 newsleft">
@@ -179,9 +184,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</div>
 										<div class="address-right">
 											<h6>Location</h6>
-											<p>Plot 55, Kireka  <br> JK house, Opposite Shell
-
-											</p>
+											<p>Room A33, Lico Holdings Building, Opposite Shell Kireka.</p>
 										</div>
 										<div class="clearfix"> </div>
 									</div>
@@ -217,8 +220,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="tab-info">
 								<div class="contact-map">
 
-									<iframe src="{% static 'assets/https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100949.24429313939!2d-122.44206553967531!3d37.75102885910819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1472190196783"
-									    class="map" style="border:0" allowfullscreen=""></iframe>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.4363330188133!2d32.649042629155886!3d0.34656784106467553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4bddf46bfd96e0bd!2sElementary+Entrepreneurs!5e0!3m2!1sen!2sug!4v1522745653168" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 								</div>
 
 							</div>

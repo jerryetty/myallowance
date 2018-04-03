@@ -1,51 +1,79 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
 {% block body %}
-	<article id="main">
-		<header class="special container">
-			<span class="icon fa-envelope"></span>
-			<h2>Get In Touch</h2>
-			<p>Use the form below to give us a piece of your mind.</p>
-		</header>
 
-		<!-- One -->
-			<section class="wrapper style4 special container 75%">
+<div class="container">
+	<div class="col-md-12">&nbsp;</div>
+	<div class="banner_bottom">
+		<!-- <div class="donate-inner"> -->
+			<!-- <div class="donate-info"> -->
+				<div class="contact-map">
 
-				<!-- Content -->
-					<div class="content">
-						<form>
-							<div class="row 50%">
-								<div class="6u 12u(mobile)">
-									<input type="text" name="name" placeholder="Name" />
-								</div>
-								<div class="6u 12u(mobile)">
-									<input type="text" name="email" placeholder="Email" />
-								</div>
-							</div>
-							<div class="row 50%">
-								<div class="12u">
-									<input type="text" name="subject" placeholder="Subject" />
-								</div>
-							</div>
-							<div class="row 50%">
-								<div class="12u">
-									<textarea name="message" placeholder="Message" rows="7"></textarea>
-								</div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<ul class="buttons">
-										<li><input type="submit" class="special" value="Send Message" /></li>
-									</ul>
-								</div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.4363330188133!2d32.649042629155886!3d0.34656784106467553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4bddf46bfd96e0bd!2sElementary+Entrepreneurs!5e0!3m2!1sen!2sug!4v1522745653168" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			<!-- </div> -->
+		<!-- </div> -->
+		<div class="clearfix"></div>	
+	</div>
+</div>
+
+<div class="container">
+	<div class="banner_bottom donate-log">
+		<div class="donate-inner">
+			<div class="donate-info">
+				<div class="col-md-12">
+					<div class="col-sm-6">
+						<h4>
+							Our Location
+						</h4>
+						<hr>
+						<p>Room A33, Lico Holdings Building, <br>Opposite Shell</p>
+					</div>
+					<div class="col-sm-6">
+						<h4>
+							Reach us 
+						</h4>
+						<p>Email :<a href="mailto:example@email.com"> info@myallowanceug.com</a></p>
+						<p>Phone: +256 753 234 157</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>	
+	</div>
+</div>
+
+<div class="clearfix">
+	&nbsp;
+</div>
+<div class="container">
+	<div class="banner_bottom donate-log">
+		<div class="donate-inner">
+			<div class="donate-info">
+				<div class="col-md-12">&nbsp;</div>
+				<div class="contact_grid_right text-center">
+					<div class="">
+						<h6>Please fill this form to contact with us.</h6>
+						<form class="form" action="#" method="post">
+							<div class="contact_left_grid">
+								<input type="text" name="Name" placeholder="Name" required="">
+								<input type="email" name="Email" placeholder="Email" required="">
+
+								<input type="text" name="Telephone" placeholder="Telephone" required="">
+								<input type="text" name="Subject" placeholder="Subject" required="">
+								<textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+								<input type="submit" value="Submit">
+								<input type="reset" value="Clear">
+								<div class="clearfix"> </div>
 							</div>
 						</form>
 					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>	
+	</div>
+</div>
 
-			</section>
-			<section class="wrapper style1 container">
-				
-			</section>
 
-				</article>
 {% endblock %}

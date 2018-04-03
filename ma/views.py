@@ -6,7 +6,9 @@ def home(request):
 	return render(request, 'pages/home.html', {})
 def about(request):
 	return render(request, 'pages/about.html', {})
-def earn(request):
-	return render(request, 'pages/earn.html', {})
+def whyus(request):
+	return render(request, 'pages/whyus.html', {})
 def contact(request):
 	return render(request, 'pages/contact.html', {})
+def help(request):
+	return render(request, 'pages/help.html', {})
